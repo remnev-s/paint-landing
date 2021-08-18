@@ -3,5 +3,8 @@
 @use '../text' as *;
 
 .page {
-
+  &__wrapper {
+    margin: 0 auto;
+    max-width: 110rem;
+  }
 }
