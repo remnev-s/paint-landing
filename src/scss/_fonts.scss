@@ -1,0 +1,27 @@
+@font-face {
+  src: url(../fonts/NoirPro-Regular.woff2) format('woff2'),
+    url(../fonts/NoirPro-Regular.woff2) format('woff');
+  font-family: 'Noir';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(../fonts/NoirPro-Medium.woff2) format('woff2'),
+    url(../fonts/NoirPro-Medium.woff) format('woff');
+  font-family: 'Noir';
+  font-weight: 500;
+}
+
+@font-face {
+  src: url(../fonts/NoirPro-Bold.woff2) format('woff2'),
+    url(../fonts/NoirPro-Bold.woff) format('woff');
+  font-family: 'Noir';
+  font-weight: 900;
+}
+
+@font-face {
+  // font-family: "Playfair";
+  src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-family: 'Playfair';
+  font-weight: 400;
+}
