@@ -6,4 +6,8 @@
 
 @forward 'blocks/page';
 @forward 'blocks/header';
-@forward 'blocks/about';
+@forward 'blocks/about/about.scss';
+@forward 'blocks/about/__card/about__card.scss';
+@forward 'blocks/about/__title/about__title.scss';
+@forward 'blocks/about/__image/about__image.scss';
+@forward 'blocks/about/__image-phone/about__image-phone.scss';

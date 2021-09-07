@@ -1,0 +1,9 @@
+@use 'color' as *;
+@use 'mixin' as *;
+
+.about {
+  &__card {
+    display: flex;
+    justify-content: space-between;
+  }
+}

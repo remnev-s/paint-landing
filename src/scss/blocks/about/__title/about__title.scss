@@ -1,0 +1,6 @@
+@use 'mixin' as *;
+
+.about__title {
+  @include titleBlock();
+  margin-bottom: 12rem;
+}
