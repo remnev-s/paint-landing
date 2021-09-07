@@ -1,0 +1,9 @@
+@use 'color' as *;
+
+.card__paragraph {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: $font-dark;
+  opacity: 0.6;
+}

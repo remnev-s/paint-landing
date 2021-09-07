@@ -4,10 +4,29 @@
 @forward 'text';
 @forward 'global';
 
-@forward 'blocks/page';
-@forward 'blocks/header';
+@forward 'blocks/root/root.scss';
+@forward 'blocks/page/page.scss';
+@forward 'blocks/page/__wrapper/page__wrapper.scss';
+
+@forward 'blocks/header/header.scss';
+@forward 'blocks/header/__inner/header__inner.scss';
+@forward 'blocks/header/__logo/header__logo.scss';
+@forward 'blocks/header/__image/header__image.scss';
+
+@forward 'blocks/header/__content/header__content.scss';
+
+@forward 'blocks/header/__content-title/header__content-title.scss';
+@forward 'blocks/header/__content-text/header__content-text.scss';
+@forward 'blocks/header/__content-text/header__content-text.scss';
+@forward 'blocks/header/__content-link/header__content-link.scss';
+
 @forward 'blocks/about/about.scss';
 @forward 'blocks/about/__card/about__card.scss';
 @forward 'blocks/about/__title/about__title.scss';
 @forward 'blocks/about/__image/about__image.scss';
 @forward 'blocks/about/__image-phone/about__image-phone.scss';
+
+@forward 'blocks/card/card.scss';
+@forward 'blocks/card/__tagline/card__tagline.scss';
+@forward 'blocks/card/__title/card__title.scss';
+@forward 'blocks/card/__paragraph/card__paragraph.scss';

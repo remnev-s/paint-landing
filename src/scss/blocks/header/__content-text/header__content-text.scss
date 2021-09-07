@@ -1,0 +1,7 @@
+@use 'mixin' as *;
+
+.header__content-text {
+  @include textSubtitle();
+  margin-bottom: 10.8rem;
+  max-width: 40.5rem;
+}

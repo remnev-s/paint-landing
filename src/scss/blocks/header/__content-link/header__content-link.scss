@@ -1,0 +1,17 @@
+@use 'color' as *;
+@use 'mixin' as *;
+
+.header__content-link {
+  @include textButton();
+  text-decoration: none;
+  color: $font-dark;
+  padding: 1.5rem 7.5rem;
+  background-color: #fff;
+  border-radius: 0.8rem;
+  margin-bottom: 13rem;
+  transition: opacity 0.2s ease-in;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}

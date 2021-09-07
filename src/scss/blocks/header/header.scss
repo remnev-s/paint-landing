@@ -1,0 +1,10 @@
+@use 'color' as *;
+@use 'mixin' as *;
+
+.header {
+  background-color: $main-dark;
+  margin: 1rem;
+  border-radius: 2rem;
+  min-height: 64rem;
+  margin-bottom: 6rem;
+}

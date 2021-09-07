@@ -1,34 +1,6 @@
 @use 'color' as *;
 
-.card {
-  background-color: $bg-card;
-  border-radius: 1rem;
-  padding: 4rem;
-  max-width: 54rem;
-  margin-bottom: 12rem;
-
-  &__tagline {
-    font-size: 1.8rem;
-    line-height: 2rem;
-    font-weight: 400;
-    color: $font-dark;
-    opacity: 0.6;
-    margin-bottom: 2rem;
-  }
-
-  &__title {
-    font-size: 3.2rem;
-    line-height: 3.8rem;
-    font-weight: 600;
-    color: $font-dark;
-    margin-bottom: 4rem;
-  }
-
-  &__paragraph {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    font-weight: 400;
-    color: $font-dark;
-    opacity: 0.6;
-  }
+.about__card {
+  display: flex;
+  justify-content: space-between;
 }

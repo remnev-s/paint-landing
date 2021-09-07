@@ -1,0 +1,8 @@
+@use 'color' as *;
+@use 'mixin' as *;
+
+.header__content-title {
+  @include titleBlock();
+  color: $text-white;
+  margin-bottom: 2.8rem;
+}
