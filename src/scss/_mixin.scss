@@ -20,6 +20,12 @@
   font-weight: 600;
 }
 
+@mixin card-text-h3() {
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  font-weight: 600;
+}
+
 // @mixin animation() {
 //   transition: all 0.3s linear;
 // }

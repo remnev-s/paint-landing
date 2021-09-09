@@ -1,0 +1,12 @@
+@use 'color' as *;
+@use 'mixin' as *;
+
+.entry__mesasge {
+  @include textButton();
+  color: rgba(17, 17, 17, 0.3);
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5rem 0 1.5rem 2rem;
+  margin: 0;
+  padding: 0;
+}

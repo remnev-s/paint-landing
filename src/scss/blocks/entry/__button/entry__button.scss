@@ -1,0 +1,16 @@
+@use 'color' as *;
+@use 'mixin' as *;
+
+.entry__button {
+  @include textButton();
+  color: #fff;
+  background-color: $main-dark;
+
+  border: none;
+  padding: 1.5rem 3rem;
+
+  cursor: pointer;
+  border-radius: 0.8rem;
+  float: right;
+  margin-bottom: 6rem;
+}

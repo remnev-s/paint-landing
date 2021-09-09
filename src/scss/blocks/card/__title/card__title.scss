@@ -1,9 +1,8 @@
 @use 'color' as *;
+@use 'mixin' as *;
 
 .card__title {
-  font-size: 3.2rem;
-  line-height: 3.8rem;
-  font-weight: 600;
+  @include card-text-h3();
   color: $font-dark;
   margin-bottom: 4rem;
 }

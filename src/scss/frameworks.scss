@@ -30,3 +30,11 @@
 @forward 'blocks/card/__tagline/card__tagline.scss';
 @forward 'blocks/card/__title/card__title.scss';
 @forward 'blocks/card/__paragraph/card__paragraph.scss';
+
+@forward 'blocks/form/form.scss';
+@forward 'blocks/form/__title/form__title.scss';
+@forward 'blocks/form/__text/form__text.scss';
+@forward 'blocks/entry/entry.scss';
+@forward 'blocks/entry/__textfield/entry__textfield.scss';
+@forward 'blocks/entry/__textfield/_message/entry__textfield_message.scss';
+@forward 'blocks/entry/__button/entry__button.scss';

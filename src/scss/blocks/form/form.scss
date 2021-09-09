@@ -1,0 +1,9 @@
+@use 'color' as *;
+
+.form {
+  background-color: $bg-card;
+  border-radius: 1rem;
+  padding: 6rem;
+  min-height: 62.8rem;
+  margin-bottom: 12rem;
+}

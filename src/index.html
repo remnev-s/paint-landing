@@ -111,6 +111,45 @@
             ими!
           </h2>
         </section>
+
+        <!-- FORM -->
+        <section class="form page__wrapper">
+          <h2 class="form__title">Хотите нам что-то посоветовать?</h2>
+          <p class="form__text">Оставьте заявку и мы свяжемся с вами.</p>
+
+          <form class="entry" name="form">
+            <input
+              class="entry__textfield"
+              name="firstname"
+              type="text"
+              placeholder="Ваше Имя"
+              required
+            />
+            <input
+              class="entry__textfield"
+              name="email"
+              type="email"
+              placeholder="Контактный Email"
+              required
+            />
+            <input
+              class="entry__textfield entry__textfield_message"
+              name="message"
+              type="text"
+              placeholder="Сообщение"
+            />
+
+            <!-- <fieldset class="entry__mesasge">
+              <textarea name="message">Сообщение</textarea>
+            </fieldset> -->
+
+            <input
+              type="submit"
+              class="entry__button"
+              value="Оставить заявку"
+            />
+          </form>
+        </section>
       </div>
     </div>
     <script src="./js/script.min.js"></script>
