@@ -1,0 +1,8 @@
+@use 'color' as *;
+@use 'mixin' as *;
+
+.footer__text {
+  @include textSubtitle();
+  color: $text-white;
+  flex: 1 1 auto;
+}

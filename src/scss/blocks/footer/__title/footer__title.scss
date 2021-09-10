@@ -1,0 +1,9 @@
+@use 'color' as *;
+@use 'mixin' as *;
+
+.footer__title {
+  @include card-text-h3();
+  color: $text-white;
+  max-width: 46rem;
+  margin-bottom: 2rem;
+}

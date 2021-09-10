@@ -1,0 +1,9 @@
+@use 'color' as *;
+@use 'mixin' as *;
+
+.footer__btn {
+  @include textButton();
+  min-width: 47rem;
+  padding: 1.5rem 0;
+  cursor: pointer;
+}
