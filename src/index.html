@@ -39,8 +39,8 @@
           </div>
         </div>
       </header>
-      <div class="main">
-        <section class="about page__wrapper">
+      <div class="main page__wrapper">
+        <section class="about">
           <div class="about__card">
             <div class="card">
               <p class="card__tagline">AI</p>
@@ -113,35 +113,33 @@
         </section>
 
         <!-- FORM -->
-        <section class="form page__wrapper">
+        <section class="form">
           <h2 class="form__title">Хотите нам что-то посоветовать?</h2>
           <p class="form__text">Оставьте заявку и мы свяжемся с вами.</p>
 
           <form class="entry" name="form">
-            <input
-              class="entry__textfield"
-              name="firstname"
-              type="text"
-              placeholder="Ваше Имя"
-              required
-            />
-            <input
-              class="entry__textfield"
-              name="email"
-              type="email"
-              placeholder="Контактный Email"
-              required
-            />
+            <fieldset class="entry__personal">
+              <input
+                class="entry__textfield"
+                name="firstname"
+                type="text"
+                placeholder="Ваше Имя"
+                required
+              />
+              <input
+                class="entry__textfield"
+                name="email"
+                type="email"
+                placeholder="Контактный Email"
+                required
+              />
+            </fieldset>
             <input
               class="entry__textfield entry__textfield_message"
               name="message"
               type="text"
               placeholder="Сообщение"
             />
-
-            <!-- <fieldset class="entry__mesasge">
-              <textarea name="message">Сообщение</textarea>
-            </fieldset> -->
 
             <input
               type="submit"

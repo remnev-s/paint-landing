@@ -5,14 +5,8 @@
   @include textButton();
   color: rgba(17, 17, 17, 0.3);
   border: none;
-  min-width: 47rem;
 
   padding: 1.5rem 0 1.5rem 2rem;
   margin-bottom: 2rem;
   border-radius: 1rem;
-
-  &:first-child {
-    margin-right: 3.7rem;
-    // border: 1px solid blue;
-  }
 }

@@ -1,6 +1,7 @@
 @use 'color' as *;
 
 .about__card {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
