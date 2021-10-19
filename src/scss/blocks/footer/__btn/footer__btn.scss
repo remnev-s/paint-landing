@@ -3,7 +3,11 @@
 
 .footer__btn {
   @include textButton();
-  min-width: 47rem;
+  // max-width: 47rem;
   padding: 1.5rem 0;
   cursor: pointer;
+
+  @media (max-width: 810px) {
+    width: 24rem;
+  }
 }

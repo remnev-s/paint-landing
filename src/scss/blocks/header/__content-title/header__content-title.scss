@@ -5,4 +5,9 @@
   @include titleBlock();
   color: $text-white;
   margin-bottom: 2.8rem;
+
+  @media (max-width: 810px) {
+    font-size: 3.3rem;
+    line-height: 3.7rem;
+  }
 }

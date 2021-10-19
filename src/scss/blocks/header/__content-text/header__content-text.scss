@@ -4,4 +4,10 @@
   @include textSubtitle();
   margin-bottom: 10.8rem;
   max-width: 40.5rem;
+
+  @media (max-width: 810px) {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 25rem;
+  }
 }

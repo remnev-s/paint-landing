@@ -11,6 +11,10 @@
   margin-bottom: 13rem;
   transition: opacity 0.2s ease-in;
 
+  @media (max-width: 810px) {
+    margin-bottom: 0;
+  }
+
   &:hover {
     opacity: 0.9;
   }

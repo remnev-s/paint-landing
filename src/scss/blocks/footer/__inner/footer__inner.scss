@@ -1,7 +1,5 @@
 .footer__inner {
   position: relative;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  // display: contents;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
