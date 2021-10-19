@@ -3,13 +3,16 @@
 
 .header__content-link {
   @include textButton();
-  text-decoration: none;
   color: $font-dark;
+  text-decoration: none;
   padding: 1.5rem 7.5rem;
   background-color: #fff;
   border-radius: 0.8rem;
   margin-bottom: 13rem;
   transition: opacity 0.2s ease-in;
+
+  // grid-column: 1/2;
+  // max-width: 24rem;
 
   @media (max-width: 810px) {
     margin-bottom: 0;
