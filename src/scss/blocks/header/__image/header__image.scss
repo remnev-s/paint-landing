@@ -1,6 +1,7 @@
 .header__image {
-  position: absolute;
-  right: 0;
+  // position: absolute;
+  // right: 0;
+  justify-self: end;
 
   @media (max-width: 415px) {
     width: 100%;
