@@ -5,4 +5,11 @@
   border-radius: 1rem;
   padding: 4rem;
   margin-bottom: 12rem;
+
+  @media (max-width: 450px) {
+    &:last-of-type {
+      display: none;
+    }
+    margin-bottom: 2rem;
+  }
 }

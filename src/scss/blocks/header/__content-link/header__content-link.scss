@@ -21,4 +21,10 @@
   &:hover {
     opacity: 0.9;
   }
+
+  @media (max-width: 450px) {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 }
