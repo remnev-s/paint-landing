@@ -11,6 +11,9 @@
   @media (max-width: 810px) {
     font-size: 1.5rem;
     line-height: 2rem;
-    // margin-bottom: 25rem;
+  }
+
+  @media (max-width: 450px) {
+    margin-bottom: 0;
   }
 }
