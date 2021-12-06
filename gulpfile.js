@@ -15,7 +15,7 @@ function browsersync() {
     },
 
     port: 8080,
-    browser: 'firefox',
+    browser: 'google chrome',
     notify: false,
   });
 }

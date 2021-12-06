@@ -2,4 +2,9 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 12rem;
+
+  @media (max-width: 450px) {
+    overflow-x: auto;
+    padding: 5rem;
+  }
 }
