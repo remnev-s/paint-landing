@@ -1,10 +1,13 @@
 .about__image {
-  display: flex;
-  justify-content: space-between;
+  // display: flex;
+  // justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   margin-bottom: 12rem;
 
   @media (max-width: 450px) {
     overflow-x: auto;
-    padding: 5rem;
+    padding: 2rem;
+    display: flex;
   }
 }
