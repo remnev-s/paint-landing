@@ -1,2 +1,12 @@
 .header__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  // grid-template-rows: 1fr 1fr;
+  // grid-template-rows: 1fr;
+  align-items: center;
+  max-height: 60rem;
+}
+
+.header__content-inner {
+  outline: 1px solid tomato;
 }

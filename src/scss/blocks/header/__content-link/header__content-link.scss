@@ -10,6 +10,10 @@
   border-radius: 0.8rem;
   margin-bottom: 13rem;
   transition: opacity 0.2s ease-in;
+  @media (max-width: 411px) {
+    display: flex;
+    justify-content: center;
+  }
 
   &:hover {
     opacity: 0.9;

@@ -1,3 +1,6 @@
 .header__logo {
-  margin: 3rem 0 6rem;
+  margin: 3rem 0 1rem;
+  @media (max-width: 613px) {
+    margin: 3rem 0 0rem;
+  }
 }

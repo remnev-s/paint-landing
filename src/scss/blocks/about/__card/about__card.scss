@@ -2,5 +2,9 @@
 
 .about__card {
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
+
+  & :not(:last-child) {
+    margin-right: 3rem;
+  }
 }

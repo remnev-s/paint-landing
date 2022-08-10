@@ -1,8 +1,10 @@
 @use 'color' as *;
 
 @mixin titleBlock() {
-  font-size: 6rem;
-  line-height: 6.9rem;
+  font-size: clamp(5rem, 4vw, 7rem);
+  // font-size: 7rem;
+  // font-size: calc(3vw + 1vh + 1vmin);
+  // line-height: 8rem;
   font-weight: 600;
 }
 

@@ -4,5 +4,10 @@
 .header__content-title {
   @include titleBlock();
   color: $text-white;
-  margin-bottom: 2.8rem;
+  margin: 0 0 2.8rem;
+  max-width: 76rem;
+  align-self: end;
+  @media screen and(max-width:1000px) {
+    max-width: 50rem;
+  }
 }
