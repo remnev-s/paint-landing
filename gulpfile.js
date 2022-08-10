@@ -11,10 +11,11 @@ const del = require('del');
 function browsersync() {
   browserSync.init({
     server: {
-      baseDir: 'src/',
+      baseDir: './',
     },
+
     port: 8080,
-    browser: 'firefox',
+    browser: 'google chrome',
     notify: false,
   });
 }
@@ -75,7 +76,7 @@ function source() {
       'src/css/main.min.css',
       'src/fonts/**/*',
       'src/js/script.min.js',
-      'src/*html',
+      './*.html',
     ],
     { base: 'src' }
   ).pipe(dest('build'));
@@ -85,7 +86,7 @@ function watching() {
   watch(['src/scss/**/*.scss'], styles);
   watch(['src/js/**/*.js', '!src/js/script.min.js'], scripts);
   // watch(['src/js/script.min.js'], scripts);
-  watch(['src/*.html']).on('change', browserSync.reload);
+  watch(['/*.html']).on('change', browserSync.reload);
 }
 
 function cleanSrc() {

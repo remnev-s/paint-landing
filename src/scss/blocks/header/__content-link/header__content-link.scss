@@ -3,19 +3,33 @@
 
 .header__content-link {
   @include textButton();
-  text-decoration: none;
   color: $font-dark;
+  text-decoration: none;
   padding: 1.5rem 7.5rem;
   background-color: #fff;
   border-radius: 0.8rem;
-  margin-bottom: 13rem;
+  max-width: 24rem;
   transition: opacity 0.2s ease-in;
   @media (max-width: 411px) {
     display: flex;
     justify-content: center;
   }
 
+  // grid-column: 1/2;
+  // max-width: 24rem;
+
+  @media (max-width: 810px) {
+    margin-bottom: 0;
+  }
+
   &:hover {
     opacity: 0.9;
+  }
+
+  @media (max-width: 450px) {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    grid-column: 1/2;
   }
 }

@@ -4,10 +4,23 @@
 .header__content-title {
   @include titleBlock();
   color: $text-white;
+<<<<<<< HEAD
   margin: 0 0 2.8rem;
   max-width: 76rem;
   align-self: end;
   @media screen and(max-width:1000px) {
     max-width: 50rem;
   }
+=======
+  margin-bottom: 2.8rem;
+
+  @media (max-width: 1120px) {
+    max-width: 60rem;
+  }
+
+  // @media (max-width: 810px) {
+  //   font-size: 3.3rem;
+  //   line-height: 3.7rem;
+  // }
+>>>>>>> e4cf964deae4123114e3ab4f365ef568263d9bee
 }

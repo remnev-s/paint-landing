@@ -3,4 +3,9 @@
 .about__title {
   @include titleBlock();
   margin-bottom: 12rem;
+
+  @media (max-width: 450px) {
+    font-size: 2.6rem;
+    line-height: 3.1rem;
+  }
 }

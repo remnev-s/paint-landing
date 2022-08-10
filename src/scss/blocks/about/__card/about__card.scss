@@ -1,10 +1,19 @@
 @use 'color' as *;
 
 .about__card {
+<<<<<<< HEAD
   display: flex;
   // justify-content: space-between;
 
   & :not(:last-child) {
     margin-right: 3rem;
+=======
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+
+  @media (max-width: 450px) {
+    grid-template-columns: 1fr;
+>>>>>>> e4cf964deae4123114e3ab4f365ef568263d9bee
   }
 }

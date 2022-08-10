@@ -23,10 +23,16 @@
 @forward 'blocks/about/about.scss';
 @forward 'blocks/about/__card/about__card.scss';
 @forward 'blocks/about/__title/about__title.scss';
+
 @forward 'blocks/about/__image/about__image.scss';
 @forward 'blocks/about/__image-phone/about__image-phone.scss';
 
+@forward 'blocks/radio-btn/radio-btn.scss';
+@forward 'blocks/radio-btn/__first/radio-btn__first.scss';
+@forward 'blocks/radio-btn/__second/radio-btn__second.scss';
+
 @forward 'blocks/card/card.scss';
+@forward 'blocks/card/__slider-btn/card__slider-btn.scss';
 @forward 'blocks/card/__tagline/card__tagline.scss';
 @forward 'blocks/card/__title/card__title.scss';
 @forward 'blocks/card/__paragraph/card__paragraph.scss';

@@ -6,4 +6,14 @@
   padding: 6rem;
   min-height: 62.8rem;
   margin-bottom: 12rem;
+
+  @media (max-width: 768px) {
+    min-height: 70.8rem;
+    // padding: 3rem 11.9;
+  }
+
+  @media (max-width: 450px) {
+    padding: 2rem;
+    min-height: 63.4rem;
+  }
 }

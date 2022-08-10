@@ -1,5 +1,6 @@
 .header__image {
   // position: absolute;
+<<<<<<< HEAD
   // top: 100px;
   // bottom: -100px;
   // right: 0;
@@ -12,4 +13,14 @@
   grid-column: 2/3;
   grid-row: 1/2;
   justify-self: end;
+=======
+  // right: 0;
+  justify-self: end;
+
+  @media (max-width: 415px) {
+    // grid-column: 1/3;
+    grid-row: 3/4;
+    max-width: 80vw;
+  }
+>>>>>>> e4cf964deae4123114e3ab4f365ef568263d9bee
 }

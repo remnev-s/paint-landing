@@ -3,4 +3,17 @@
   // display: grid;
   // grid-template-columns: repeat(2, 1fr);
   // grid-template-rows: 1fr auto 1fr;
+
+  &__personal {
+    border: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+  }
 }

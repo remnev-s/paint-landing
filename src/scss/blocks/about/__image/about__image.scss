@@ -1,6 +1,19 @@
 .about__image {
+<<<<<<< HEAD
   // grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   // display: flex;
   // justify-content: space-between;
+=======
+  // display: flex;
+  // justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+>>>>>>> e4cf964deae4123114e3ab4f365ef568263d9bee
   margin-bottom: 12rem;
+
+  @media (max-width: 450px) {
+    overflow-x: auto;
+    padding: 2rem;
+    display: flex;
+  }
 }
